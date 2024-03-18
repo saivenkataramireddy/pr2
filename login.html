@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>  
+    <script src="login.js"></script>
+    <h1 ><img src="smile.svg" height="50px" width="50px"> Login Form<img src="smile.svg" height="50px" width="50px"></h1> 
+    <div class="login">
+        <form>
+            <img src="loginlogo.svg">
+            <label>Username:</label>
+            <input type="text" id="username" name="username" placeholder="username" >
+            <label>password:</label>
+            <input type="password" id="password" name="password" placeholder="password" >
+            <input type="submit"  value="submit" name="validatelogin()" id="validatelogin()" >
+            <p>If you wantusername and password <a href="signup.html"> clickhere</a> </p>
+        </form>
+    </div>
+    <script>
+        function validatelogin()
+        {
+            var user = document.getElementById("username").value;
+            var pass= document.getElementById("password").value;
+            {
+                if (user =="sai")
+                {
+                    alert('login successfull');
+                    document.getElementById("username").focus();
+                    document.getElementById("username").innerHTML="login success";
+                    return true;
+                }
+            }
+        }
+    </script>
+    
+   
+</body>
+</html>

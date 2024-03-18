@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(91, 77, 80, 0.816);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid ;
+    border-style:groove;
+    box-sizing: content-box;
+    border-radius: 40px;
+    width:auto;
+    margin: 40px;
+    text-align: center;
+    text-decoration: underline;
+        
+}
+body img{
+    width: 200px;
+    height: 180px;
+    float: left;
+    display: flex;
+}
+#mail{
+    border: 5px solid ;
+    border-style:groove;
+    box-sizing: content-box;
+    border-radius: 40px;
+    width:auto;
+    height: 200px;  
+    padding:30px; 
+    margin: 40px; 
+}
+#what{
+    border: 5px solid ;
+    border-style:groove;
+    box-sizing: content-box;
+    border-radius: 40px;
+    width:auto;
+    height: 200px;  
+    padding:30px; 
+    margin: 40px;
+
+
+}
+#what img{
+    height:200px;
+    
+
+}
+#insta{
+    border: 5px solid ;
+    border-style:groove;
+    box-sizing: content-box;
+    border-radius: 40px;
+    width:auto;
+    height: 200px;  
+    padding:20px;  
+    margin: 40px;
+}
+#num{
+    border: 5px solid ;
+    border-style:groove;
+    box-sizing: content-box;
+    border-radius: 40px;
+    width:auto;
+    height: 200px;  
+    padding:20px;  
+    margin: 40px;
+}
+#num,#insta,#what,#mail ,label{
+    text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url("ba.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+   
+}
+
+
+
+nav{
+    background-color: rgba(0, 0, 0, 0.559);
+    height: 60px;
+    width: auto;
+    margin: 0;
+}
+form ul{
+    text-align: center;
+    display: inline-block;
+    margin: 0 23px;
+    line-height: 80px;
+    list-style-type: none;
+    font-weight: bold;
+    
+}
+form ul a{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.act,a:hover{
+    background: blue;
+    transition: .5s;
+    cursor: pointer;
+}
+form img{
+    height: 50px;
+    width: 60px;
+    padding-top: 5px;
+    
+}
+@media only screen and (max-width:414px , max-height:896px ) {
+   .text{
+    visibility: collapse;
+
+    } 
+}
+#head{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+#mar{
+    font-size: 40px;
+    margin-left: 250px;
+    margin-top: 70px;
+    text-transform: uppercase;
+   
+    
+}

@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(184, 104, 241, 0.466);
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    
+}
+p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+}
+p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+    text-align: center;
+}
+
+form ul{
+    text-align: center;
+    display: inline-block;
+    margin: 0 23px;
+    line-height: 80px;
+    list-style-type: none;
+    height: 60px;
+    
+    
+}
+div{
+    border: 2px solid;
+    width: 650px;
+    height: 750px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(203, 223, 53, 0.637);
+    
+}
+form img{
+    height: 810px;
+    width: 240px;
+    
+}

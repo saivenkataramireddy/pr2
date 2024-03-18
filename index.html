@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <script>
+          function validate()
+        {
+            var name = document.getElementById("uname").value;
+            var pass = document.getElementById("password").value;
+            var confrim = document.getElementById("confrim").value;
+            var mobile = document.getElementById("mobile").value;
+
+            if (name =="")
+            {
+                alert('user name cannot be empty');
+                document.getElementById("uname").focus();
+                document.getElementById("uname").innerHTML="user name cannot be empty";
+                return false;
+
+            }
+            else if (pass != confrim)
+            {
+                alert("passwords are not matching");
+                document.getElementById("pass").focus();
+                document.getElementById("pass").innerHTML="passwords are not matching ";
+                return false;
+                
+            }
+            else if (name=="sai" && pass=="saireddy"&& confrim=="saireddy")
+            {
+                alert("Login successfull");
+                window.location.assign("main.html");
+                
+
+            }
+            
+
+
+        }
+
+        </script>
+
+    <marquee scrollamount="18" ><h1><img src="smile.svg" height="40px" width=60px"> ** Login Form **<img src="smile.svg" height="40px" width=60px"> </h1></marquee>
+    <div class="Signup">
+        <form>
+            <img src="smile.svg" alt="><">
+            <section><label>Username:</label>
+            <input id="uname" type="text" name="" >
+            <label>password:</label>
+            <input id="password" type="text" name="" >
+            <label>confrim password:</label>
+            <input id="confrim" type="text" name="">
+            <label>mobilenumber:</label>
+            <input id="mobile" type="text" name="" >            
+            <input onclick="validate()" type="submit" value="Login" name="" ></section>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
